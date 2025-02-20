@@ -1,3 +1,10 @@
+/*
+nama File   :   MTitik.java
+Deskripsi   :   Main dari Titik.java
+Pembuat     :   Hadyan Kholish Prasetio
+Tanggal     :   19/02/2025
+*/
+
 // package pertemuan1;
 public class MTitik {
     public static void main(String[] args){
