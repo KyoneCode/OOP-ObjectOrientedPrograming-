@@ -1,11 +1,4 @@
-/*
-nama File   :   MTitik.java
-Deskripsi   :   Main dari Titik.java
-Pembuat     :   Hadyan Kholish Prasetio
-Tanggal     :   19/02/2025
-*/
 
-// package pertemuan1;
 public class MTitik {
     public static void main(String[] args){
         Titik T1 = new Titik();
@@ -24,7 +17,6 @@ public class MTitik {
         // T2.printTitik();
 
         //counter titik
-        System.out.println("*8888*****************************CounterTitik****************************888");
         System.out.println("Jumlah objek titik = " + Titik.getcountertitik());
         System.out.println("Jumlah objek T2 = " + T2.getcountertitik());
         Titik T3 = new Titik(3,10);
