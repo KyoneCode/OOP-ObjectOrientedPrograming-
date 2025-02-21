@@ -1,5 +1,4 @@
-// package pertemuan1;
-// package pertemuan1;
+
 /*
 nama File   :   Titik.java
 Deskripsi   :   Berisi atribut dan method dalam class titik
@@ -14,20 +13,20 @@ public class Titik {
     static int countertitik = 0;
     /***************Method***********/
     //konstriktor untuk membuat titik (0,0)
-    Titik(){
+    public Titik(){
         Absis = 0;
         Ordinat = 0;
         countertitik++;
     }
 
-    Titik(double Absis, double Ordinat){
+    public Titik(double Absis, double Ordinat){
         this.Absis = Absis;
         this.Ordinat = Ordinat;
         countertitik++;
     }
 
     //mengembalikan nilai counterTitik
-    static int getcountertitik(){
+    public static int getcountertitik(){
         return countertitik;
     }
 
@@ -37,38 +36,38 @@ public class Titik {
         System.out.println(countertitik);
     }
     //mengembalikan nilai absis
-    double getAbsis(){
+    public double getAbsis(){
         return Absis;
     }
 
     //mengembalikan nilai ordinat
-    double getOrdinat(){
+    public double getOrdinat(){
         return Ordinat;
     }
 
     //mengeset absis titik dengan nilai baru x
-    void setAbsis(double x){
+    public void setAbsis(double x){
         Absis = x;
     }
 
     //mengeset ordinat titik dengan nilai baru y
-    void setOrdinat(double y){
+    public void setOrdinat(double y){
         Ordinat = y;
     }
 
     //menggeser nilai absis dan ordinat titik masing masing sejauh x dan y
-    void geser(double x, double y){
+    public void geser(double x, double y){
         Absis = Absis + x;
         Ordinat = Ordinat + y;
     }
 
     //mencetak kordinat titik
-    void printTitik(){
+    public void printTitik(){
         System.out.println("Titik (" + Absis + "," + Ordinat + ")");
     }
 
     //mengembalikan nilai kuadran 
-    int getkuadran(){
+    public int getkuadran(){
         if (Absis >= 1 && Ordinat >=1){
             return 1;
         }
@@ -87,32 +86,32 @@ public class Titik {
     }
 
     //mengembalikan jarak pusat
-    double getjarakpusat(){
+    public double getjarakpusat(){
         return Math.sqrt(getAbsis()*getAbsis()+getOrdinat()*getOrdinat());
     }
 
     //mengembalikan jarak kedua titik
-    double getjarak(Titik T){
+    public double getjarak(Titik T){
         return Math.sqrt((T.getAbsis()-getAbsis())*(T.getAbsis()-getAbsis())) + ((T.getOrdinat()-getOrdinat())*(T.getOrdinat()-getOrdinat()));
     }
 
     //merefleksikan titik pada sumbu X
-    void refleksiX(){
+    public void refleksiX(){
         Ordinat = Ordinat * -1;
     }
 
     //merefleksikan titik pada sumbu Y
-    void refleksiY(){
+    public void refleksiY(){
         Absis = Absis *-1;
     }
 
     //mengembalikan nilai refleksi titik terhadap sb X
-    Titik getRefleksiX(){
+    public Titik getRefleksiX(){
         return new Titik(Absis, -Ordinat);
     }
 
     //mengembalikan nilai refleksi titik thd sb Y
-    Titik getRefleksiY(){
+    public Titik getRefleksiY(){
         return new Titik(-Absis, Ordinat);
     }
 }// end of class titik
