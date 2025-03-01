@@ -71,7 +71,7 @@ public class Mhs{
         this.kendaraan = x;
     }
 
-    public void setListMatKul(MataKuliah x) {
+    public void AddMatKul(MataKuliah x) {
         ListMatKul.add(x);
     }
 
@@ -84,12 +84,8 @@ public class Mhs{
     } 
 
     public double getJumlahMatKul(){
-        double count = 0;
-        for (int i = 0; i < ListMatKul.size() ; i++) {
-            count += 1;
-        }
-        return count;
-    } 
+        return ListMatKul.size();
+    }
 
     public void printMhs(){
         System.out.println("Nim: "+getNim());
@@ -103,10 +99,10 @@ public class Mhs{
         System.out.println("Prodi: "+getProdi());
         System.out.println("Matkul: ");
         for(int i=0;i<ListMatKul.size();i++){
-            System.out.println("-"+ListMatKul.get(i));
+            System.out.println("-"+ListMatKul.get(i).getNama());
         } 
-        System.out.println("DosWal: "+getDosenWali()+"("+getDosenWali().getNip()+", "+getDosenWali().getProdi()+")");
-        System.out.println("Kendaraan: "+getKendaraan()+"("+getKendaraan().getNoPlat()+", "+getKendaraan().getJenis()+")");
+        System.out.println("DosWal: "+getDosenWali().getNama()+"("+getDosenWali().getNip()+", "+getDosenWali().getProdi()+")");
+        System.out.println("Kendaraan: "+"("+getKendaraan().getNoPlat()+", "+getKendaraan().getJenis()+")");
     }
 
 }
