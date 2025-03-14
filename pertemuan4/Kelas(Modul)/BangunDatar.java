@@ -1,4 +1,5 @@
 package oop_objectorientedprogramming.pertemuan4.kelas_modul;
+//javac -d . BangunDatar.java
 
 
 public class BangunDatar {
