@@ -1,4 +1,4 @@
-package Java.Pertemuan4;
+package OOP-ObjectOrientedPrograming.Pertemuan4.Kelas(Modul);
 
 public class Persegi extends BangunDatar{
     //atribut
