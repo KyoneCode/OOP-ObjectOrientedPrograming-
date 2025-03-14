@@ -1,4 +1,5 @@
-package OOP-ObjectOrientedPrograming.Pertemuan4.Kelas(Modul);
+package oop_objectorientedprogramming.pertemuan4.kelas_modul;
+
 
 public class Persegi extends BangunDatar{
     //atribut
