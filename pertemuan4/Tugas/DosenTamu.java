@@ -61,7 +61,7 @@ public class DosenTamu extends Dosen {
         System.out.println("Masa Kerja   : " + hitungMasaKerja());
         System.out.println("Sisa Kontrak : " + hitungSisaKontrak());
         System.out.println("TBK          : " + TBK.format(FORMATTER));
-        System.out.println("Gaji Pokok   : " + GajiPokok);
+        System.out.println("Gaji Pokok   : Rp." + GajiPokok+".00");
         System.out.println("Tunjangan    : " + "2,5% x "+ MasaKerjaTahun() + " x Rp. " + GajiPokok+ " = Rp. "+ Tunjangan()+"0");
 
     }
