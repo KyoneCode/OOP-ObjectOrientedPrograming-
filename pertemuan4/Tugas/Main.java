@@ -13,7 +13,8 @@ public class Main {
             "Teknik Informatika", 
             LocalDate.of(2000, 3, 1), 
             "Dosen Tetap", 
-            "10000000"  
+            "10000000",
+            65 
         );
 
         // Membuat objek DosenTamu
@@ -26,7 +27,7 @@ public class Main {
             LocalDate.of(2015, 6, 1), 
             "Dosen Tamu", 
             "8000000",  
-            LocalDate.of(2026, 12, 31) 
+            LocalDate.of(2026, 12, 31)
         );
 
         // Membuat objek Tendik
@@ -37,7 +38,8 @@ public class Main {
             "Sumber Daya", 
             LocalDate.of(2010, 9, 1),
             "Tendik",
-            "6000000"  
+            "6000000",
+            55 
         );
 
         // Menampilkan informasi setiap objek
