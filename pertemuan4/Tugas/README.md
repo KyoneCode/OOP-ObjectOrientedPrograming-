@@ -1,1 +1,1 @@
-![UML PBO PRAK Pegawai](https://github.com/user-attachments/assets/5f7f7ba5-befb-448c-a2af-0730efe24beb)
+![UML PBO PRAK Pegawai](https://github.com/user-attachments/assets/0ac426e5-b9cb-4b2d-8b28-865c948cb938)
