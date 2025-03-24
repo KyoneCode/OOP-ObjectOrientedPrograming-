@@ -1,3 +1,4 @@
+package Tugas;
 import java.time.LocalDate;
 
 public class MManusia {
