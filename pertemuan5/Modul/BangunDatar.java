@@ -1,4 +1,4 @@
-
+package pertemuan5.Modul;
 public abstract class BangunDatar {
     /*atribut*/
     private double jmlSisi;
