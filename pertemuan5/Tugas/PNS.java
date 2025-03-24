@@ -1,4 +1,4 @@
-
+package Tugas;
 import java.time.LocalDate;
 import java.time.Period;
 public class PNS extends Manusia implements Pajak{
