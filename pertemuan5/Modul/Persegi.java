@@ -1,4 +1,4 @@
-
+package pertemuan5.Modul;
 public class Persegi extends BangunDatar implements IResize{
     //atribut
     private double sisi;
