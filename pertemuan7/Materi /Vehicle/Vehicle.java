@@ -1,4 +1,4 @@
-package pertemuan7.Materi;
+package pertemuan7.Materi.Vehicle;
 public class Vehicle {
     void calRent(int distance, float price) {
         float fare = distance * price;

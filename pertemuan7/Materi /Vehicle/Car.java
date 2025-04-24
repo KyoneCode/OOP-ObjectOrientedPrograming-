@@ -1,4 +1,4 @@
-package pertemuan7.Materi;
+package pertemuan7.Materi.Vehicle;
 public class Car extends Vehicle {
     @Override
     void calRent(int jarak, float harga) {

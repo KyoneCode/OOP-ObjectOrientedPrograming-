@@ -1,4 +1,4 @@
-package pertemuan7.Materi;
+package pertemuan7.Materi.Person;
 // Person.java
 public class Person {
     private String name;

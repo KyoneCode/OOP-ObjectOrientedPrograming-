@@ -1,4 +1,4 @@
-package pertemuan7.Materi;
+package pertemuan7.Materi.Vehicle;
 // Sewa.java
 public class Sewa {
     public static void main(String[] args) {

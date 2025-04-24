@@ -1,4 +1,4 @@
-package pertemuan7.Materi;
+package pertemuan7.Materi.Person;
 // Student.java
 public class Student extends Person {
     public Student(String name) {
