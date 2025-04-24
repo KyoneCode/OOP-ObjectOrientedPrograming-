@@ -1,3 +1,4 @@
+package pertemuan7.Materi;
 // Sewa.java
 public class Sewa {
     public static void main(String[] args) {

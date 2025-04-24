@@ -1,4 +1,4 @@
-// Car.java
+package pertemuan7.Materi;
 public class Car extends Vehicle {
     @Override
     void calRent(int jarak, float harga) {
