@@ -1,0 +1,6 @@
+1.Jelaskan manfaat polimorfisme pada kasus ini.
+2.Apabila pada main program perlu menambahkan pegawai4 dan pegawai5! Apa permasalahan yang muncul jika diterapkan tanpa polimorfisme (inclusion)?
+
+jawab:
+1. Polimorfisme dalam kasus di atas berguna karena karyawan punya lebih dari 1 anak, dan tiap anaknya memiliki prosedur tampil data yang berbeda beda. yang mana kodenya jadi lebih fleksibel, pemanggilannya pun gampang, bisa menggunakan emp.tampildata() dan for untuk menampilkan data
+2. semua jenis pegawai (Programmer, Manajer dll..) harus disimpan di list atau array terpisah. yangmana mengakibatkan proses looping dan pengolahan data lebih rumit karena harus memeriksa tipe objek satu satu, dan juga jika memanggil metode tampilData() harus secara manual tergantung jenis objeknya.
