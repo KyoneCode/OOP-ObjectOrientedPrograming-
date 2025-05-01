@@ -11,11 +11,12 @@ package Tutorial;
 public class Senjata {
     private String bunyi;
     private boolean menusuk;
-    
+    //konstruk
     public Senjata(String bunyi){
         this.bunyi=bunyi;
         this.menusuk=false;
     }
+    //metod
     public void setBunyi(String bunyi){
     this.bunyi = bunyi;   
     }
