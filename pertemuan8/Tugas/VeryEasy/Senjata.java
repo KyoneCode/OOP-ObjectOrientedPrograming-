@@ -1,6 +1,5 @@
 public class Senjata {
     private String bunyi;
-    private boolean menusuk;
     private int peluru;
     //konstruct
     public Senjata(String bunyi){
