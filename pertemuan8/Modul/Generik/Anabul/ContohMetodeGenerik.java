@@ -1,5 +1,5 @@
 
-public class Main {
+public class ContohMetodeGenerik {
     public static void main (String[] args){
         Datum<Anabul> AnabulG = new Datum<>();
         Anabul a = new Anjing("Audi");
