@@ -14,9 +14,5 @@ public class MapTest {
 
         // mengambil keseluruhan kunci sebagai objek collection Set
         Set<Integer> key = map.keySet();
-
-        // bagaimana iterasi untuk mengambil keseluruhan
-        // nilai dari kunci? tulis pada laporan anda!
-        // petunjuk: gunakan iterasi seperti program ArrayListTest
     }
 }
