@@ -1,3 +1,9 @@
+/**
+ * File : MapTest.java
+ * Nama : Hadyan Kholish Prasetio
+ * NIM : 24060123140197
+ * Deskripsi : Contoh penggunaan Map
+ */
 import java.util.*;
 
 public class MapTest {
