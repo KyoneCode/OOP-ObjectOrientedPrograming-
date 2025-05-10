@@ -1,5 +1,7 @@
 /**
  * File : ArrayListTest.java
+ * Nama : Hadyan Kholish Prasetio
+ * NIM : 24060123140197
  * Deskripsi : program penggunaan objek ArrayList 
  *             sebagai Collection class
  */
