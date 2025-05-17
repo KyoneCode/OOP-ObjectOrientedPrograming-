@@ -1,3 +1,6 @@
+
+//Nama: Hadyan Kholish Prasetio
+//NIM: 24060123140197
 public class Person{
     private int id;
     private String name;
