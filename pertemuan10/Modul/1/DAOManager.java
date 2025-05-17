@@ -1,5 +1,7 @@
 /**
  * File : DAOManager.java
+Nama: Hadyan Kholish Prasetio
+NIM: 24060123140197
  * Deskripsi : pengelola DAO dalam program
  */
 public class DAOManager {
