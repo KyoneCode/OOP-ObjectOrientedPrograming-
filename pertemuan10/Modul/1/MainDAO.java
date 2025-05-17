@@ -1,5 +1,7 @@
 /**
  * File : MainDAO.java
+//Nama: Hadyan Kholish Prasetio
+//NIM: 24060123140197
  * Deskripsi : Main program untuk akses DAO
  */
 public class MainDAO {
