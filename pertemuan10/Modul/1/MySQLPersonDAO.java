@@ -1,3 +1,6 @@
+
+//Nama: Hadyan Kholish Prasetio
+//NIM: 24060123140197
 import java.sql.*;
 
 public class MySQLPersonDAO implements PersonDAO {
